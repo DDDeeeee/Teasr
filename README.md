@@ -6,7 +6,7 @@ Microphone-free speech recognition and text polishing for vibe coding on Windows
 TEASR is a desktop voice input app that turns speech into text with as little friction as possible.
 
 面向 Windows 的无麦克风语音识别与文本润色工具，适合 vibe coding。
-TEASR 是一个桌面语音输入应用，目标是把说话变成文字这件事做得尽量直接、顺手。
+TEASR 是一个桌面语音输入应用，目标是把说话变成文字这件事做得尽量直接、顺手。包含中英双语。
 
 ## Features
 
