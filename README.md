@@ -1,6 +1,6 @@
 # TEASR
 
-![teasr-en](D:\Projects\code\asr-api\teasr-en.png)
+![teasr-en](https://github.com/DDDeeeee/Teasr/blob/main/pics/teasr-en.png)
 
 Microphone-free speech recognition and text polishing for vibe coding on Windows.
 TEASR is a desktop voice input app that turns speech into text with as little friction as possible.
@@ -9,6 +9,8 @@ TEASR is a desktop voice input app that turns speech into text with as little fr
 TEASR 是一个桌面语音输入应用，目标是把说话变成文字这件事做得尽量直接、顺手。
 
 ## Features
+
+![speaking](https://github.com/DDDeeeee/Teasr/blob/main/pics/Speaking.png)
 
 - Hotkey-driven voice input.
 - Realtime and non-realtime recognition modes.
@@ -42,7 +44,7 @@ TEASR 是一个桌面语音输入应用，目标是把说话变成文字这件�
 
 ## Remote Phone Input
 
-![PHONE-MICROPHONE](D:\Projects\code\asr-api\PHONE-MICROPHONE-1774168057618-3.png)
+![PHONE-MICROPHONE](https://github.com/DDDeeeee/Teasr/blob/main/pics/PHONE-MICROPHONE.png)
 
 If your computer does not have a microphone, you can open the phone page and use your phone as the audio input source.
 The desktop app shows the access URL and QR code automatically.
