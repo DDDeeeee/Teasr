@@ -1,0 +1,27 @@
+# Python 依赖列表
+# 安装命令: pip install -r requirements.txt
+
+# 音频处理
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# 键盘监听
+keyboard>=0.13.5
+
+# API 调用
+dashscope>=1.25.0
+openai>=1.30.0
+
+# 远程手机麦克风
+cryptography>=45.0.0
+websockets>=11.0.0
+
+# OSD 悬浮窗 (PyQt6)
+PyQt6>=6.6.0,<6.8.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# UIAutomation 光标定位（可选，提升 Chrome/VS Code 等应用的定位精度）
+comtypes>=1.2.0

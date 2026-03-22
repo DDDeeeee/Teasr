@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="cupBody" x1="0.15" y1="0" x2="0.85" y2="0">
+      <stop offset="0%" stop-color="#e0d4c0"/>
+      <stop offset="25%" stop-color="#f5efe4"/>
+      <stop offset="60%" stop-color="#faf6ef"/>
+      <stop offset="100%" stop-color="#e4d8c4"/>
+    </linearGradient>
+    <linearGradient id="cupVert" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf6ef"/>
+      <stop offset="100%" stop-color="#e0d4be"/>
+    </linearGradient>
+    <linearGradient id="saucerFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8dcc6"/>
+      <stop offset="100%" stop-color="#d0c0a4"/>
+    </linearGradient>
+    <linearGradient id="saucerEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0aa88"/>
+      <stop offset="100%" stop-color="#a89070"/>
+    </linearGradient>
+    <linearGradient id="teaSurface" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#b8922c"/>
+      <stop offset="100%" stop-color="#6e4e10"/>
+    </linearGradient>
+    <linearGradient id="handleGrad" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#ece4d4"/>
+      <stop offset="100%" stop-color="#c8b898"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="256" cy="256" r="248" fill="#1e1e24"/>
+
+  <g transform="translate(8,0)">
+    <!-- ===== SAUCER ===== -->
+    <ellipse cx="248" cy="392" rx="158" ry="32" fill="#9a8468"/>
+    <ellipse cx="248" cy="386" rx="158" ry="32" fill="url(#saucerEdge)"/>
+    <ellipse cx="248" cy="384" rx="142" ry="27" fill="url(#saucerFace)"/>
+    <ellipse cx="248" cy="383" rx="100" ry="18" fill="#c4b08c" opacity="0.45"/>
+    <ellipse cx="220" cy="378" rx="60" ry="10" fill="white" opacity="0.08"/>
+
+    <!-- ===== CUP BODY ===== -->
+    <ellipse cx="248" cy="378" rx="78" ry="14" fill="#1e1e24" opacity="0.3"/>
+
+    <path d="M152 248
+             Q148 250 150 258
+             C156 320 172 358 188 372
+             Q196 378 210 380
+             L286 380
+             Q300 378 308 372
+             C324 358 340 320 346 258
+             Q348 250 344 248
+             Z"
+          fill="url(#cupBody)"/>
+
+    <path d="M152 248
+             Q148 250 150 258
+             C156 320 172 358 188 372
+             Q196 378 210 380
+             L286 380
+             Q300 378 308 372
+             C324 358 340 320 346 258
+             Q348 250 344 248
+             Z"
+          fill="url(#cupVert)" opacity="0.5"/>
+
+    <path d="M160 258
+             C166 316 176 350 188 370
+             L180 370
+             C168 350 160 318 156 260
+             Z"
+          fill="#c4b8a4" opacity="0.5"/>
+
+    <path d="M320 260
+             C326 300 318 340 306 368
+             L312 370
+             C324 342 332 302 326 260
+             Z"
+          fill="white" opacity="0.1"/>
+
+    <path d="M220 260
+             C222 310 228 350 240 375
+             L250 376
+             C238 350 232 310 230 260
+             Z"
+          fill="white" opacity="0.08"/>
+
+    <!-- ===== CUP RIM ===== -->
+    <ellipse cx="248" cy="248" rx="98" ry="24" fill="#f0e8d8"/>
+    <ellipse cx="248" cy="246" rx="98" ry="24" fill="#f5efe4"/>
+    <ellipse cx="248" cy="247" rx="86" ry="20" fill="#e0d4c0"/>
+    <ellipse cx="248" cy="248" rx="82" ry="18" fill="#2a2218"/>
+
+    <!-- ===== TEA ===== -->
+    <ellipse cx="248" cy="252" rx="78" ry="16" fill="url(#teaSurface)" opacity="0.9"/>
+    <ellipse cx="234" cy="249" rx="32" ry="7" fill="#c8a030" opacity="0.35"/>
+    <ellipse cx="260" cy="254" rx="18" ry="4" fill="#d4aa38" opacity="0.15"/>
+
+    <!-- ===== HANDLE ===== -->
+    <path d="M338 280
+             C370 280 386 300 386 320
+             C386 340 370 358 338 358"
+          fill="none" stroke="#1e1e24" stroke-width="20" stroke-linecap="round" opacity="0.3"/>
+    <path d="M336 276
+             C368 276 384 296 384 318
+             C384 340 368 356 336 356"
+          fill="none" stroke="url(#handleGrad)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M340 284
+             C362 284 374 300 374 318
+             C374 336 362 350 340 350"
+          fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
+
+    <!-- ===== STEAM ===== -->
+    <path d="M218 218 C212 192 226 178 218 152 C210 126 224 108 220 82"
+          fill="none" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.35">
+      <animate attributeName="d"
+               values="M218 218 C212 192 226 178 218 152 C210 126 224 108 220 82;
+                       M218 218 C224 190 212 176 220 150 C228 124 214 106 220 80;
+                       M218 218 C212 192 226 178 218 152 C210 126 224 108 220 82"
+               dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0.12;0.35" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M248 214 C242 185 258 170 250 142 C242 114 256 96 252 68"
+          fill="none" stroke="white" stroke-width="5" stroke-linecap="round" opacity="0.45">
+      <animate attributeName="d"
+               values="M248 214 C242 185 258 170 250 142 C242 114 256 96 252 68;
+                       M248 214 C254 183 240 168 248 140 C256 112 242 94 248 66;
+                       M248 214 C242 185 258 170 250 142 C242 114 256 96 252 68"
+               dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0.15;0.45" dur="3.8s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M276 218 C282 194 270 182 278 158 C286 134 274 118 278 94"
+          fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" opacity="0.3">
+      <animate attributeName="d"
+               values="M276 218 C282 194 270 182 278 158 C286 134 274 118 278 94;
+                       M276 218 C270 192 282 180 274 156 C266 132 278 116 274 92;
+                       M276 218 C282 194 270 182 278 158 C286 134 274 118 278 94"
+               dur="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.08;0.3" dur="2.9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and release artifacts
+build/
+dist/
+installer/
+*.spec.bak
+
+# Runtime output and generated local state
+runtime/*.log
+runtime/*.txt
+runtime/*.pid
+runtime/*.lnk
+runtime/*.png
+runtime/pip-tmp/
+runtime/remote_phone/
+runtime/.keep
+
+# Local captures and temporary files
+asr-phone/captures/
+asr-phone/
+docs/
+legacy/
+long_time/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Archived frontend build artifacts
+legacy/osd-tauri/node_modules/
+legacy/osd-tauri/src-tauri/target/
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.lnk
+*.vbs
+
+# Local tool settings
+.claude/
+AGENT.md
+CLAUDE.md
